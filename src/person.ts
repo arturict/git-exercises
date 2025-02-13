@@ -17,19 +17,19 @@ export class Person {
     this.birthdate = d;
   }
 
-  fullName() {
+  fullName(): string {
     return `${this.firstName} ${this.lastName}`;
   }
 
-  swissName() {
+  swissName(): string {
     return `${this.lastName}, ${this.firstName}`;
   }
 
-  birthDate() {
+  birthDate(): Date {
     return this.birthdate;
   }
 
-  yearsOld() {
+  yearsOld(): number {
     const millis = Math.abs(this.birthdate.getTime() - new Date().getTime());
     const years = millis / (1000 * 3600 * 24 * 365.25);
     return roundTo(years, 0.1);
