@@ -21,10 +21,6 @@ export class Person {
     return `${this.firstName} ${this.lastName}`;
   }
 
-  swissName(): string {
-    return `${this.lastName}, ${this.firstName}`;
-  }
-
   birthDate(): Date {
     return this.birthdate;
   }

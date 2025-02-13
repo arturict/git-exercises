@@ -1,7 +1,5 @@
-import { Person } from "./person";
+import { people } from "./people";
 
-const a: Person = new Person("Alice", "Bobson", 1967, 2, 13);
-const b: Person = new Person("Bob", "Allison", 1962, 11, 29);
-
-console.log(`Hello, ${a.fullName()}! You are ${a.yearsOld()} years old.`);
-console.log(`Grüezi, ${b.swissName()}! You are ${b.yearsOld()} years old.`);
+for (const p of people) {
+  console.log(`Hello, ${p.fullName()}! You seem to be ${p.yearsOld()} years old.`);
+}
