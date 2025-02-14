@@ -1,0 +1,1 @@
+die hinzugefügten Dateien haben einen "A" bei der Aufgabe 4. diese werden beim commit mit einbezogen. bei aufgabe 3 ist das nicht so.
