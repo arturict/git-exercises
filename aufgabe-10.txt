@@ -1,0 +1,5 @@
+Löschen mit rm: Datei wird entfernt, aber git status zeigt nichts an.
+Löschen mit git rm -r: Ordner wird entfernt und als gelöscht markiert.
+Rückgängig machen: git checkout -- datei/ordner
+Umbenennen mit mv: Datei wird als neue Datei erkannt, verliert aber History.
+Umbenennen mit git mv: Datei/Ordner behält seine Versionsgeschichte.
